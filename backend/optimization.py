@@ -86,15 +86,15 @@ def group():
 
     # OUTPUT MGMT
 
-    for s in stations:
-        if (sum(value(ifJobAtStation[j][s]) for j in range(numJobs))!=0):
-            print("/nStation %s:" % (s))
-        for j in range(numJobs):
-            if (value(ifJobAtStation[j][s]) != 0):
-                print ("ifJobAtStation(%s,%s)=%s" % (j,s,value(ifJobAtStation[j][s])))
-        for t in types:
-            if (value(numWorkers[t][s]) != 0):
-                print ("numWorkers(%s,%s)=%s" % (t,s,value(numWorkers[t][s])))
+    # for s in stations:
+    #     if (sum(value(ifJobAtStation[j][s]) for j in range(numJobs))!=0):
+    #         print("/nStation %s:" % (s))
+    #     for j in range(numJobs):
+    #         if (value(ifJobAtStation[j][s]) != 0):
+    #             print ("ifJobAtStation(%s,%s)=%s" % (j,s,value(ifJobAtStation[j][s])))
+    #     for t in types:
+    #         if (value(numWorkers[t][s]) != 0):
+    #             print ("numWorkers(%s,%s)=%s" % (t,s,value(numWorkers[t][s])))
 
     # eliminate null stations
     new_out = {}

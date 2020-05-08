@@ -1,1 +1,2 @@
 'hmc_opt.exe' filter=lfs diff=lfs merge=lfs -text
+hmc_opt.exe filter=lfs diff=lfs merge=lfs -text
