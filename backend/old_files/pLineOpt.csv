@@ -1,0 +1,5 @@
+Station (#),Length (m),Width (m),Process (Name),Human Ops.(#),Comp. Ops. (trial),Comp. Ops. (reset)
+1,1.2,1.4,receive,2.0,0.0,0.0
+2,1.5,2.0,"sort, fasten",2.0,0.0,0.0
+3,5.0,2.4,"clean, trial",2.0,3.0,0.0
+4,6.0,4.41,"reset, deburr",2.0,0.0,1.0
